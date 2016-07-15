@@ -1,0 +1,144 @@
+
+        .icon{width: 100px; height: 100px; position: absolute;}
+        .molerat{left: 650px; top: 100px;}
+        .robot{left: 770px; top: 220px;}
+        .topiary{left: 535px; top: 220px;}
+        .lion{left: 650px; top: 455px;}
+        .vert{left: 723px; top: 230px; width: 4px; height: 250px; position: absolute; background: black; }
+        .hor{left: 723px; top: 220px; width: 4px; height: 150px; position: absolute; background: black;
+        -webkit-transform: rotate(90deg);}
+        .headlinewrap{position: absolute; top: 35px; left: 60px; }
+            
+        .front{z-index: 5;}
+       
+        .body{max-width: 100%; overflow-x: hidden; }
+            h1{font-family: helvetica;font-size: 20pt;}
+            
+            p{font-family: helvetica;
+                width: 300px;}
+            
+            .bible{color: crimson;}
+            
+            .icons{position: absolute;
+                top: 50px;
+                left: 590px;
+                width: 600px;
+                height: 90px;
+                background: white; 
+                border-top: 100px;
+            
+            }
+
+            .smallicon{position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 300px;
+                height: 90px;
+                background: white; 
+                border-top: 100px;
+            
+            }
+
+            .small{
+                width: 70%;
+                height: 70%;
+            }
+
+            .stuck{
+                position: fixed;
+            }
+            
+            .graphic{
+                position: absolute;
+                top: 1000px;
+                left: 600px; 
+                width: 500px;
+                height: 1000px; 
+                z-index: -2;
+    
+            }
+            
+
+
+            .legend{
+                position: absolute;
+                top: 140px;
+                left: 950px;
+                z-index: 20;
+            }
+
+            .legend.stuck{
+                position: fixed; 
+
+            }
+            
+            .head{
+                background: white;
+                position: absolute;
+                top: -20px;
+                height:140px;
+                width:100%;
+                z-index: 2;
+            }
+            
+            .yaxis{
+                position: absolute;
+                left:490px;  
+                top: 1005px;
+                z-index: 3;
+            }
+            
+            .numbermask{
+                position: absolute;
+                height:100px;
+                width:100px;
+                top: 0px;
+                left: 490px;
+                background: white;
+                z-index: 10;
+            }
+            
+            .numbermask.stuck{
+                position: fixed;   
+            }
+
+            .contentwrap{
+                position: absolute;
+                width: 100%;
+                height: 800px;
+                top: 900px;
+            }
+            .contentwrap.stuck{
+                position: fixed;
+                top: 0px;
+            }
+            
+            .box{
+                position: absolute;
+                top: 160px;
+                left: 50px;
+                width: 300px;
+                background: white;
+            }
+                
+
+
+            .topmask{
+                position: fixed;
+                height:100px;
+                width:100%;
+                top: 0px;
+                left: opx;
+                background: white;
+                z-index: -1;
+            }
+            
+
+
+            .left{
+                float: left;
+                padding-left: -20;
+                padding-right: -20;
+            }
+
+ 
